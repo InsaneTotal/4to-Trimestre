@@ -1,0 +1,19 @@
+.imgsvg {
+  width: 150px;
+  height: 150px;
+  display: block;
+  animation: rotar 15s linear infinite;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  width: 600px;
+}

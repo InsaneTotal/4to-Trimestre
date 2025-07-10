@@ -1,0 +1,43 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 15px;
+  background-color: rgb(244, 234, 220);
+  padding: 5px;
+}
+
+#container {
+  background-color: #eea892;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 25px 10px 25px;
+  border: 2px solid #938f8f;
+}
+
+#header-info {
+  display: flex;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  height: 10rem;
+}
+
+#image {
+  padding-left: 25px;
+  width: 25%;
+  height: auto;
+  align-items: flex-start;
+}
+
+#image img {
+  position: relative;
+  border-radius: 50%;
+  top: 5px;
+}
+
+#personal_info {
+  padding: 35px 25px 0 0;
+  width: 75%;
+  display: inline-block;
+  text-align: right;
+  line-height: 2px;
+}

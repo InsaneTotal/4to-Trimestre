@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/calculator.svg"
+      type="image/svg+xml"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <input type="text" placeholder="0" id="resultado" readonly />
+      </div>
+      <div class="botones">
+        <button value="<" class="operador">&larr;</button>
+        <button value="%" class="operador">%</button>
+        <button value="C" class="operador">C</button>
+        <button value="/" class="operador">/</button>
+        <button value="7" class="numero">7</button>
+        <button value="8" class="numero">8</button>
+        <button value="9" class="numero">9</button>
+        <button value="X" class="operador">X</button>
+        <button value="4" class="numero">4</button>
+        <button value="5" class="numero">5</button>
+        <button value="6" class="numero">6</button>
+        <button value="-" class="operador">-</button>
+        <button value="1" class="numero">1</button>
+        <button value="2" class="numero">2</button>
+        <button value="3" class="numero">3</button>
+        <button value="+" class="operador">+</button>
+        <button value="0" class="numero">0</button>
+        <button value="." class="operador">.</button>
+        <button value="=" id="igual" class="operador">=</button>
+      </div>
+    </div>
+    <div id="container-btn">
+      <button id="btn-on-off" class="turn-on" value="true">On</button>
+    </div>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

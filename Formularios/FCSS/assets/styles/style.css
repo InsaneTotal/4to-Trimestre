@@ -1,0 +1,135 @@
+body {
+  animation: cambiarFondo 5s ease infinite;
+
+  /* linear-gradient(180deg, #ee633d 0%, #fa6b33 50%, #ed7f18 100%); */
+}
+
+@keyframes cambiarFondo {
+  0% {
+    background-color: #ff6b42;
+  }
+  25% {
+    background-color: #ff7037;
+  }
+  50% {
+    background-color: #ff8b1e;
+  }
+  75% {
+    background-color: #ff7037;
+  }
+  100% {
+    background-color: #ff6b42;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45rem;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 25px;
+  margin-top: 15px;
+  flex-direction: column;
+  border: #ff0000 solid 3px;
+  border-radius: 2%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: #fc540c;
+}
+
+.campo {
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  justify-self: center;
+  margin-bottom: 15px;
+}
+.header input {
+  width: 100%;
+  margin-top: 5px;
+  height: 30px;
+  border: #ff0000 solid 3px;
+}
+
+.body-form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: #ff0000 solid 3px;
+  border-radius: 2%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #fc540c;
+}
+
+.text-area {
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  resize: vertical;
+  gap: 1rem;
+  margin-bottom: 10px;
+  border-radius: 2%;
+  margin-top: 5px;
+  border: #ff0000 solid 3px;
+  resize: none;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  /* color: white; */
+}
+
+.btn-form {
+  width: 50%;
+  justify-self: flex-start;
+  border-radius: 15px;
+  height: 40px;
+  /* background-color: #ee633d; */
+  border: #ff0000 solid 2px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 15px;
+  animation: cambiarFondo 5s ease infinite;
+
+  /* linear-gradient(180deg, #ee633d 0%, #fa6b33 50%, #ed7f18 100%); */
+}
+
+/* @keyframes cambiarFondo {
+  0% {
+    background-color: #ee633d;
+  }
+  25% {
+    background-color: #fa6b33;
+  }
+  50% {
+    background-color: #ed7f18;
+  }
+  75% {
+    background-color: #fa6b33;
+  }
+  100% {
+    background-color: #ee633d;
+  }
+} */
